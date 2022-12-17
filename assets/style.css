@@ -1,0 +1,242 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-color: #ffb300;
+  }
+  
+  .all {
+    background-color: #a1ffff;
+    margin: 20px;
+  }
+  
+  .all .allsection {
+    margin: 0 auto;
+    width: 40%;
+  }
+  
+  .all .allsection .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 25px;
+  }
+  
+  .all .allsection .header img {
+    width: 90px;
+    height: 13vh;
+  }
+  
+  .all .allsection .header .headerright p {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .all .allsection .sec1 {
+    margin-top: 15px;
+  }
+  
+  .all .allsection .sec1 h2 {
+    border-bottom: 4px solid black;
+  }
+  
+  .all .allsection .sec1 .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .all .allsection .sec1 .details .leftside {
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 80px;
+  }
+  
+  .all .allsection .sec1 .details .leftside,
+  .all .allsection .sec1 .details .rightside {
+    margin-top: 15px;
+  }
+  
+  .all .allsection .sec2 {
+    margin-top: 25px;
+  }
+  
+  .all .allsection .sec2 h2 {
+    border-bottom: 4px solid black;
+  }
+  
+  .all .allsection .sec2 .firstline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .all .allsection .sec2 .firstline .rightside {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .all .allsection .sec2 .firstline .rightside p {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .all .allsection .sec2 .secondline {
+    font-style: italic;
+    margin-top: 2px;
+  }
+  
+  .all .allsection .sec2 .thirdline {
+    margin-left: 36px;
+  }
+  
+  .all .allsection .sec2 .thirdline span {
+    font-size: 14px;
+  }
+  
+  .all .allsection .sec3 {
+    margin-top: 25px;
+  }
+  
+  .all .allsection .sec3 h2 {
+    border-bottom: 4px solid black;
+  }
+  
+  .all .allsection .sec3 .firstandsecondinfo,
+  .all .allsection .sec3 .thirdandfourthinfo,
+  .all .allsection .sec3 .fifthandsixthinfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .all .allsection .sec3 .firstandsecondinfo .firstinfo,
+  .all .allsection .sec3 .firstandsecondinfo .secondinfo,
+  .all .allsection .sec3 .firstandsecondinfo .thirdinfo,
+  .all .allsection .sec3 .firstandsecondinfo .fourthinfo,
+  .all .allsection .sec3 .firstandsecondinfo .fifthinfo,
+  .all .allsection .sec3 .firstandsecondinfo .sixthinfo,
+  .all .allsection .sec3 .thirdandfourthinfo .firstinfo,
+  .all .allsection .sec3 .thirdandfourthinfo .secondinfo,
+  .all .allsection .sec3 .thirdandfourthinfo .thirdinfo,
+  .all .allsection .sec3 .thirdandfourthinfo .fourthinfo,
+  .all .allsection .sec3 .thirdandfourthinfo .fifthinfo,
+  .all .allsection .sec3 .thirdandfourthinfo .sixthinfo,
+  .all .allsection .sec3 .fifthandsixthinfo .firstinfo,
+  .all .allsection .sec3 .fifthandsixthinfo .secondinfo,
+  .all .allsection .sec3 .fifthandsixthinfo .thirdinfo,
+  .all .allsection .sec3 .fifthandsixthinfo .fourthinfo,
+  .all .allsection .sec3 .fifthandsixthinfo .fifthinfo,
+  .all .allsection .sec3 .fifthandsixthinfo .sixthinfo {
+    width: 45%;
+  }
+  
+  .all .allsection .sec3 .firstline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .all .allsection .sec3 .firstline .rightside {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .all .allsection .sec3 .firstline .rightside p {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .all .allsection .sec3 .secondline {
+    font-style: italic;
+    margin-top: 2px;
+  }
+  
+  .all .allsection .sec3 .thirdline {
+    margin-left: 36px;
+  }
+  
+  .all .allsection .sec3 .thirdline span {
+    font-size: 14px;
+  }
+  
+  .all .allsection .sec4 {
+    margin-top: 25px;
+  }
+  
+  .all .allsection .sec4 h2 {
+    border-bottom: 4px solid black;
+  }
+  
+  .all .allsection .sec4 .topside {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 34%;
+  }
+  
+  .all .allsection .sec4 .buttomside {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 64%;
+  }
+  
+  .all .allsection .sec4 .topleftside {
+    margin-top: 15px;
+  }
+  
+  .all .allsection .sec4 .topleftside span {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .all .allsection .sec4 .buttomleft span, .all .allsection .sec4 .buttomright span {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .all .allsection .sec5 {
+    margin-top: 25px;
+    padding-bottom: 30px;
+  }
+  
+  .all .allsection .sec5 h2 {
+    border-bottom: 4px solid black;
+  }
+  
+  .all .allsection .sec5 p {
+    margin-top: 20px;
+  }
